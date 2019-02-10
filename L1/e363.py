@@ -2,7 +2,7 @@ from sklearn.datasets import load_boston
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-import statsmodels.api as sm # import statsmodels 
+import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 import matplotlib.pyplot as plt
 import seaborn as sns
